@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="MainPage h-screen w-full bg-gray-200 flex justify-center items-center ">
+        <div class="Container h-auto w-2/6 border-solid border-2 border-black bg-white  ">
+            <div class="signup font-black text-blue-800 flex justify-end mr-8 mt-8 cursor-pointer">Login</div>
+            <div class="Login font-bold text-4xl flex justify-center mt-8">Registration</div>          
+            <div class="mx-28 mt-8">
+            <label class="text-xl flex -mb-5" for="username">Username<p class="ml-2 text-red-600">*</p></label><br>
+            <input class="border-solid border-2 border-black h-10 w-full mb-3" type="text" id="username" name="username"><br>
+            <label class="text-xl flex -mb-5" for="username">Email<p class="ml-2 text-red-600">*</p></label><br>
+            <input class="border-solid border-2 border-black h-10 w-full mb-3" type="text" id="username" name="username"><br>
+            <label class="text-xl flex -mb-5" for="pwd">Password<p class="ml-2 text-red-600">*</p></label><br>
+            <input class="border-solid border-2 border-black h-10 w-full" type="password" id="pwd" name="pwd"><br><br>
+            <label class="text-xl flex -mb-5" for="pwd">Confirm Password<p class="ml-2 text-red-600">*</p></label><br>
+            <input class="border-solid border-2 border-black h-10 w-full" type="password" id="pwd" name="pwd"><br><br>
+            </div>
+            <div class="Button flex justify-center items-center mt-5 mb-10 ">
+            <button class="bg-yellow-500 font-bold h-10 w-full text-xl mx-28 hover:bg-yellow-400" >Login</button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
